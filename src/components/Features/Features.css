@@ -1,0 +1,16 @@
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-heading {
+    text-align: center;
+    font: small-caps bold 32px/1 sans-serif;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

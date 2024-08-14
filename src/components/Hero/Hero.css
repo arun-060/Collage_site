@@ -1,0 +1,57 @@
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slideshow-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slideshow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2em;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slideshow-button.prev {
+    left: 10px;
+}
+
+.slideshow-button.next {
+    right: 10px;
+}
+
+.slideshow-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero {
+    padding: 50px;
+}
+
+.about-us {
+    padding: 16px;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-logo {
+    margin: 16px
+}
