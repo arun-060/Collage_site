@@ -16,12 +16,14 @@
 
 .slideshow-button {
     position: absolute;
+    width: 48px;
+    height: 48px;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
-    font-size: 2em;
+    /* font-size: 2em; */
     padding: 0 10px;
     cursor: pointer;
     border-radius: 50%;

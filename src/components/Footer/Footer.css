@@ -1,0 +1,47 @@
+.footer {
+    padding: 16px;
+    background: hsla(225, 78%, 59%, 1);
+}
+
+.top {
+    padding: 16px 48px 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 48px;
+    width: auto;
+}
+
+.social {
+    height: 48px;
+    width: 48px;
+    mix-blend-mode:multiply;
+    object-fit: contain;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.bottom {
+    padding: 16px 48px 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+    padding-left: 36px;
+}
